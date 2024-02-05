@@ -2,7 +2,6 @@ module github.com/maerf0x0/go-project-template
 
 go 1.21.6
 
-require (
-	github.com/sirupsen/logrus v1.9.3 // indirect
-	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
-)
+require github.com/sirupsen/logrus v1.9.3
+
+require golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
